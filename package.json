@@ -1,0 +1,27 @@
+{
+  "name": "cypress-cucumber-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carvalhogsc/cypress-cucumber-saucedemo.git"
+  },
+  "author": "Guilherme Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carvalhogsc/cypress-cucumber-saucedemo/issues"
+  },
+  "homepage": "https://github.com/carvalhogsc/cypress-cucumber-saucedemo#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.11.0",
+    "esbuild": "^0.17.18"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3"
+  }
+}
