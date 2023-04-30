@@ -6,6 +6,6 @@ Feature: Checkout
       | name                              | price |
       | Sauce Labs Backpack               | 29.99 |
       | Test.allTheThings() T-Shirt (Red) | 15.99 |
-    And view the items in the cart
+    And view the products add in the cart
     And complete checkout
     Then I should verify that the checkout was successful
