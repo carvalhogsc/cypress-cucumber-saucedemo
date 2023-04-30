@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "homepage": "https://github.com/carvalhogsc/cypress-cucumber-saucedemo#readme",
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
-    "cypress": "^12.11.0",
+    "cypress": "12.3.0",
     "esbuild": "^0.17.18"
   },
   "dependencies": {
