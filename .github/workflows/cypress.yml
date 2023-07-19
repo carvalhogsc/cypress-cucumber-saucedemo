@@ -16,6 +16,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          build: npm run build
           command: npm run test
           browser: ${{ matrix.browser }}
